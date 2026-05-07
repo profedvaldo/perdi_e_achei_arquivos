@@ -19,48 +19,8 @@ Todos os arquivos necessários para o bom andamento do projeto — incluindo có
 - Aprender os fundamentos do desenvolvimento web (front-end e back-end)
 - Desenvolver habilidades com HTML, CSS e JavaScript
 - Implementar uma aplicação web completa do zero
-- Praticar o versionamento de código com Git e GitHub
-
 ---
 
-## 🗂️ Estrutura do Repositório
-
-```
-perdi_e_achei_arquivos/
-├── docs/          # Documentação e especificações do projeto
-├── src/           # Código-fonte da aplicação
-│   ├── css/       # Estilos
-│   ├── js/        # Scripts JavaScript
-│   └── pages/     # Páginas HTML
-├── assets/        # Imagens e recursos estáticos
-├── LICENSE        # Licença MIT
-└── README.md      # Este arquivo
-```
-
-> ⚠️ A estrutura acima será atualizada conforme o projeto evoluir ao longo do semestre.
-
----
-
-## 🚀 Funcionalidades Previstas
-
-- [ ] Cadastro de itens perdidos
-- [ ] Cadastro de itens encontrados
-- [ ] Busca e filtro de itens
-- [ ] Contato entre quem perdeu e quem encontrou
-- [ ] Painel de gerenciamento
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-| Tecnologia | Finalidade |
-|---|---|
-| HTML5 | Estrutura das páginas |
-| CSS3 | Estilização e layout |
-| JavaScript | Interatividade no front-end |
-| Git / GitHub | Versionamento e colaboração |
-
----
 
 ## 👨‍🏫 Professor Responsável
 
