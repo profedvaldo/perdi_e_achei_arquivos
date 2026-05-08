@@ -26,7 +26,30 @@
                 <h1>Perdeu? Achou? Registre aqui</h1>
                 <p>Uma Central simples para Cadastrar
                     objetos perdidos ou encontrados na unipar.</p>
+                <!-- aqui tinha uma div, passei ela depois da ação -->
+                <div class="acao">
+                    <!--Class = "btn btn-principal": encapsulamento
+                de classes, classes complementares-->
+                    <a href="#cadastro" class="btn btn-principal">
+                        Cadastrar Objeto
+                    </a>
+                    <a href="#registros" class="btn btn-secundario">
+                        Ver Registros
+                    </a>
+                </div>
             </div>
+            <!--barra lateral do site-->
+            <aside class="hero-card" aria-label="Resumo do Sistema">
+                <img src="assets/hero-achados-perdidos.svg" alt="Ilustração de Objetos" />
+                <div class="hero-metricas">
+                    <!--Lembrança para o Futuro: 
+                    o js vai atualiza isso-->
+                    <div>
+                        <strong id="totalRegistros">0</strong>
+                        <span>Registros</span>
+                    </div>
+                </div>
+            </aside>
         </section>
     </header>
 
