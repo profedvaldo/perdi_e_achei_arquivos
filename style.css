@@ -1,0 +1,31 @@
+/**
+style.css é uma folha de estilos, ou seja, controla
+a aparência da página;
+Uma sugestão de organização
+1º colocar as variáveis
+2º Reset 
+3º Demais configurações
+....
+nº Medias queryes (resposividade para telas menores)
+*/
+
+/**para utilizar as variaveis eu devo declarar em :root;
+ facilitando a manutenção, o :root também é chamado de 
+ escopo global*/
+
+:root {
+    /*não é rute*/
+    --azul: #0050a0;    /* cor principal */
+    --azul-2: #0066cc;    /*variação*/
+    --azul-escuro: #052b55;    /*azul de titulo*/
+    --azul-claro: #e6f0ff;    /*azul para fundo*/
+    --verde: #1f8f4d;
+    --amarelo: #f9b233;
+    --texto: #1f2937;
+    --cinza: #667085;
+    --linha: #dbe6f3;
+    --fundo: #f4f7fb;
+    --raio: 24px; /* raio padrão para cantos arredondados*/
+    --sombra: 0 18px 45px rgba(11, 39, 75, 0.14); /*sombra*/
+ }
+ 
