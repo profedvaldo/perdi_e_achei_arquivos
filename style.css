@@ -28,4 +28,26 @@ nº Medias queryes (resposividade para telas menores)
     --raio: 24px; /* raio padrão para cantos arredondados*/
     --sombra: 0 18px 45px rgba(11, 39, 75, 0.14); /*sombra*/
  }
+
+ /*reset e configurações globais*/
+ *{box-sizing: border-box;}
+
+ html{
+    scroll-behavior: smooth; /* rolagem de pagina suave */
+ }
+ body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--texto); /* quando for chamar a variavel devo
+    usar var(--nome_da_variavel);*/
+ }
+ img{
+    max-width: 100%;
+    display: block;
+ }
+ /*vou trabalhar com o hero*/
+ .hero{
+    min-height: 560px;
+    padding: 28px 6vw 86px; /*6vw = 6% da largura da janela*/
+ }
  
