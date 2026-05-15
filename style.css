@@ -49,5 +49,18 @@ nº Medias queryes (resposividade para telas menores)
  .hero{
     min-height: 560px;
     padding: 28px 6vw 86px; /*6vw = 6% da largura da janela*/
+    color: white;
+    overflow: hidden;
+    position: relative;
  }
- 
+ .nav{
+    max-width: 1180px; /*limitando a largura para não esticar 
+    em telas grandes*/
+    margin: 0 auto 68px; /*centraliza e cria espaço*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px; /* espaço entre itens */
+    position: relative;
+    z-index: 2; /*garante a sobreposição do menu*/ 
+ }
