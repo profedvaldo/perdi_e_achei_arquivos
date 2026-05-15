@@ -64,3 +64,29 @@ nº Medias queryes (resposividade para telas menores)
     position: relative;
     z-index: 2; /*garante a sobreposição do menu*/ 
  }
+ .marca{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1.2rem;/*responsivo*/
+ }
+ .marca-img{
+    width: 48px;
+    height: 48px;
+ }
+ .nav-links{
+    display: flex;
+    gap: 22px;
+    flex-wrap: wrap; /*se nao tiver espaço, quebra a linha*/
+ }
+ .nav-links a{
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+    font-weight: 800;
+}
+.nav-links a:hover{
+    color: red;
+}
